@@ -13,14 +13,13 @@ def using_pop(array)
   continents.pop
 end
 
-using_pop(continents)
-
 def pop_with_args(number_of_elements)
   dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
   dog_breeds.pop(2)
 end
 
 def using_shift(array)
+  
 
 
 
