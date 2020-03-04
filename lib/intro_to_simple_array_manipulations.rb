@@ -9,8 +9,8 @@ def using_unshift(array,string)
 end
 
 def using_pop(array)
-  array = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
-    array.pop
+  continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
+    .pop
 end
 
 def pop_with_args(number_of_elements)
