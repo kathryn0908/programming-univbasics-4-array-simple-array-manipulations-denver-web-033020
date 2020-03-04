@@ -8,10 +8,12 @@ def using_unshift(array,string)
   updated_array = bouroughs_in_nyc.unshift("Staten Island")
 end
 
-def using_pop(continents)
+def using_pop(array)
   continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
   continents.pop
 end
+
+using_pop(continents)
 
 def pop_with_args(number_of_elements)
   dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
