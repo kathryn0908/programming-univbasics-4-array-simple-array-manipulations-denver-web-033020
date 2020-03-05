@@ -52,12 +52,13 @@ end
 
 def using_delete(array, string)
    instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-    no_offense_steven = instructors.delete_at(1)
+    no_offense_steven = instructors.delete
 end
 
 def using_delete_at(array,integer)
   famous_robots = ["Johnny 5", "R2D2", "Robocop"]
-    deleted_robot = famous_robots.delete_at()
+    deleted_robot = famous_robots.delete_at(2)
+end
   
   
   
