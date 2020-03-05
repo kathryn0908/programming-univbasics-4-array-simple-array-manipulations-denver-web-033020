@@ -13,7 +13,7 @@ def using_pop(array)
   deleted_string=continents.pop
 end
 
-def pop_with_args(2)
+def pop_with_args(integer)
   dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
   small_dogs=dog_breeds.pop(2)
 end
